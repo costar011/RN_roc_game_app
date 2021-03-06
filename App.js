@@ -61,7 +61,7 @@ const App = () => {
               style={styles.startBtn}
               onPressOut={() => _startButtonClickHandler(0)}
             >
-              <Text style={styles.startBtnText}>RESTART!</Text>
+              <Text style={styles.startBtnText}>RESTART</Text>
             </TouchableOpacity>
           )}
         </View>
@@ -81,12 +81,14 @@ const styles = StyleSheet.create({
 
   ingameArea: {
     flex: 8,
+
     alignItems: "center",
     justifyContent: "center",
   },
 
   resultArea: {
     flex: 2,
+
     alignItems: "center",
     justifyContent: "center",
   },
@@ -94,9 +96,11 @@ const styles = StyleSheet.create({
   startBtn: {
     width: CURRENT_WIDTH / 2,
 
-    height: 45,
+    height: 40,
     backgroundColor: "#5f6061",
     borderRadius: 6,
+    marginBottom: 40,
+
     alignItems: "center",
     justifyContent: "center",
   },
@@ -104,36 +108,41 @@ const styles = StyleSheet.create({
   startBtnText: {
     color: "#fff",
 
-    fontWeight: "700",
+    fontWeight: "600",
     fontSize: 20,
   },
 
   resultAreaTop: {
     flex: 1,
+
     alignItems: "center",
     justifyContent: "center",
   },
 
   resultAreaBottom: {
     flex: 1,
+
     alignItems: "center",
     justifyContent: "center",
   },
 
   ingameTop: {
     flex: 4,
+
     alignItems: "center",
     justifyContent: "center",
   },
 
   ingameMiddle: {
     flex: 2,
+
     alignItems: "center",
     justifyContent: "center",
   },
 
   ingameBottom: {
     flex: 4,
+
     alignItems: "center",
     justifyContent: "center",
   },
