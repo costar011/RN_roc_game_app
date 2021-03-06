@@ -39,7 +39,7 @@ const App = () => {
             <View style={styles.ingameMiddle}>
               <LinearGradient
                 // Button Linear Gradient
-                colors={["#4c669f", "#3b5998", "#192f6a"]}
+                colors={["#bfc3c7", "#818385", "#454647"]}
                 locations={[0.9, 0.1]}
                 style={styles.vsView}
               >
