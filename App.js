@@ -95,7 +95,7 @@ const App = () => {
             </View>
             <View style={styles.ingameMiddle}>
               <LinearGradient
-                colors={["#353b48", "#7f8fa6"]}
+                colors={["#050982", "#4f6af0"]}
                 locations={[0.9, 0.1]}
                 style={styles.vsView}
                 start={[`left`, `right`]}
@@ -149,10 +149,12 @@ const styles = StyleSheet.create({
   startBtn: {
     width: CURRENT_WIDTH / 2,
     height: 45,
-    backgroundColor: "#2f3640",
+    backgroundColor: "#123c8a",
     borderRadius: 6,
+
     alignItems: "center",
     justifyContent: "center",
+    marginBottom: 50,
   },
   startBtnText: {
     color: "#fff",
